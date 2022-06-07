@@ -1,0 +1,201 @@
+
+body{
+  background: #27283B;
+  width: 100%;
+  height: 100vh;
+  overflow:hidden;
+}
+.stars{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100vh;
+  background:  url('images/stars.png');
+  animation: star 120s linear infinite;
+}
+@keyframes star{
+  0%{
+    background-position: 40% 80%;
+  }
+  100%{
+    background-position: 0% 10%;
+  }
+}
+button{
+  margin-left: -50%;
+}
+.parrot{
+  position:absolute;
+  transform: translate(-50%, -50%);
+  top:45%;
+  left:50%;
+  width:200px;
+  height:200px;
+  cursor:pointer;
+}
+  .big{
+    position:absolute;
+    top:0;
+    left:0;
+    transform: translate(-50%, -50%);
+    transform:rotate(45deg);
+    transition:.5s;
+    border-radius: 50%;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color:#dd2a2a;
+    border-left-color:#DB3E3D;
+    border-width: 100px;
+    border-style: solid;
+  }  
+  .middle{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    transform:rotate(45deg);
+    transition:.5s;
+    border-radius: 50%;
+    border-right-color: transparent;
+    border-top-color: #F8D245;
+    border-bottom-color: #FFFFFF;
+    border-left-color:#FFFFFF;
+    border-width: 80px;
+    border-style: solid;
+  }
+  .small{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    transform:rotate(45deg);
+    transition:.5s;
+    border-radius: 50%;
+    border-right-color: #F7A703;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color:transparent;
+    border-width: 40px;
+    border-style: solid;
+  }
+    .small:before{
+      position: absolute;
+      content:"";
+      width: 20px;
+      height:20px;
+      top:-10px;
+      left:-40px;
+      border-radius:50%;
+      background:#000;
+    }
+    .parrot:hover .big,.parrot:focus .big{
+      transform:rotate(225deg);
+      border-bottom-color: #1dca9f;
+      border-left-color:#00ffbf;
+    }
+    .parrot:hover .middle,.parrot:focus .middle{
+      transform:rotate(-135deg);
+      border-right-color: #F8D245;
+      border-top-color: transparent;
+      border-bottom-color: #FFFFFF;
+      border-left-color: #FFFFFF;
+    }
+    .parrot:hover .small,.parrot:focus .small{
+      transform:rotate(135deg);
+      border-right-color: #F7A703;
+      border-top-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color:transparent;
+    }
+.text-box{
+  background: #d6d6d6;
+  position: relative;
+  width: 300px;
+  height: 120px;
+  left: -40px;
+  z-index: 2;
+  border-radius: 30px;
+  border-bottom-left-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: #888;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.text-box span{
+  position: absolute;
+  top: 101px;
+  left: 0px;
+  width: 66px;
+  height: 36px;
+  background: #d6d6d6;
+  transform: skew(0deg,-30deg);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.parrot:hover .text-box,.parrot:focus .text-box{
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(-150px);
+}
+.parrot:hover .text-box span,.parrot:focus .text-box span{
+  visibility: visible;
+  transform: translateY(0px);
+  transform: skew(0deg,-30deg);
+  opacity: 1;
+}
+footer{
+  background:#000 ;
+  position: absolute;
+  left: 0;
+  top: 92vh;
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+a{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  padding-left: 7px;
+  transition: 0.3s ease;
+}
+a:hover{
+  font-size: 25px;
+  color: #888;
+}
+.textarea{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 250px;
+  height: 30px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 5px 10px;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color:#333;
+  border: none;
+  background: #fff;
+    box-shadow: none;
+    outline: none;
+}

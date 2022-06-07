@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techtrio-Virtual Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static' , filename ='styles.css')}}">
+</head>
+<body>
+   <div class="stars"></div>
+    <form action="func" method="POST">
+      
+      <input type="text" name="input" class="textarea" placeholder="Enter Your Commands Here..."> 
+      <button type="submit">
+        <div class="parrot">
+        <div class="big"></div>
+        <div class="middle"></div>
+        <div class="small"></div>	
+        <div class="text-box">
+         Can give Commands by Voice OR by Typing
+          <span></span>
+        </div>				
+      </div>
+</button>
+    </form>
+  <footer>
+    Developed with &#10084; by <a href="team">Techtrio</a>.
+  </footer>
+</body>
+</html>

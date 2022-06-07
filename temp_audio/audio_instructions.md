@@ -1,0 +1,1 @@
+### This directory is just for storing the temporary audio files created during the session to give voice commands to the virtual assistant.
