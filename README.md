@@ -87,7 +87,7 @@ This is virtual assistant project developed by the team Techtrio (Hackathon cont
 
 ## Contributing
 1. Fork it
-   ```https://github.com/Ratnesh4193/virtual-assistant.git```
+   ```https://github.com/dminiac/Virtual-assistant-using-Python.git```
 2. Create your feature branch: 
    ```git checkout -b feature/foobar```
 3. Commit your changes: 
