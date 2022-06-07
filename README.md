@@ -13,9 +13,9 @@ Project made by Team "Techtrio".
 
 ## Description
 
-This is virtual assistant project developed by the team Techtrio. This project is useful to do various  activities  by  using  users voice and as well as we can give command by texting also. It is made to  provide ease in peoples life. You can perform below mentioned features by giving command through voice or by texting in input box. <br>
-Link to our project video :<br>
-https://youtu.be/wONJcv5ORsw
+This is virtual assistant project developed by the team Techtrio (Hackathon contest). This project is useful to do various  activities  by  using  users voice and as well as we can give command by texting also. It is made to  provide ease in peoples life. You can perform below mentioned features by giving command through voice or by texting in input box. <br>
+
+
 
 #### Features
 
@@ -56,7 +56,8 @@ https://youtu.be/wONJcv5ORsw
 - Now activate environment by command :
  > .\assistant\Scripts\activate
 - Now clone the github repository by command :
- > git clone https://github.com/Ratnesh4193/virtual-assistant.git
+ > git clone https://github.com/dminiac/Virtual-assistant-using-Python.git
+
 - Move inside project by command :
  > cd virtual-assistant
 - Download PyAudio library whl according to your python version from https://pypi.org/project/PyAudio/#files and install it in the virtual by command :
@@ -78,9 +79,9 @@ https://youtu.be/wONJcv5ORsw
 ---    
 
 ## Contact
-- Rupal Singh - rupalsinghid@gmail.com  - https://www.linkedin.com/in/rupal-singh-40b3001a8/
-- Ratnesh kumar Tiwari - rktssgk@gmail.com -  https://www.linkedin.com/in/ratnesh-kumar-tiwari-867b521a6/
-- Sanskar Srivastava -  sanskar0703@gmail.com - https://www.linkedin.com/in/sanskar-srivastava-0319b3194/ 
+- Ashish Choudhary - choudharyashish621@gmail.com  - https://www.linkedin.com/in/ashish-choudhary321/
+
+
 
 ---
 
